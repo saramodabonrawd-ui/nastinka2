@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#6A2C70">
+<title>سياسة الخصوصية | رقم وحكمة</title>
+<link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Cairo:wght@500;800&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#DCE5E2; --ink:#1B2B34; --muted:#506068; --paper:#F7FAF9; --accent:#6A2C70; --onaccent:#FFFFFF;
+  box-sizing:border-box;
+  padding-top:env(safe-area-inset-top,0px); padding-bottom:env(safe-area-inset-bottom,0px);
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){ --bg:#121A1F; --ink:#E8EFEE; --muted:#9DB0B3; --paper:#1D2A31; --accent:#C58BCB; --onaccent:#121A1F; }
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:"Cairo",system-ui,sans-serif;min-height:100vh;display:flex;justify-content:center}
+main{width:100%;max-width:560px;padding:24px 18px 40px}
+.box{background:var(--paper);border:1px solid var(--muted);border-radius:20px;padding:24px 20px;line-height:1.8}
+h1{font-family:"Amiri",serif;font-size:2rem;margin:0 0 12px;color:var(--accent)}
+h2{font-size:1.05rem;margin:18px 0 6px;color:var(--accent)}
+p{margin:0 0 10px;color:var(--ink);font-size:.95rem}
+.back{display:inline-block;margin-top:16px;background:var(--accent);color:var(--onaccent);text-decoration:none;font-weight:800;padding:10px 22px;border-radius:999px}
+</style>
+</head>
+<body>
+<main>
+  <div class="box">
+    <h1>سياسة الخصوصية — رقم وحكمة</h1>
+    <p>يحترم تطبيق <strong>رقم وحكمة | Number and Wisdom</strong> خصوصيتك ولا يجمع أي بيانات شخصية أو معلومات تعريفية عنك.</p>
+
+    <h2>تخزين البيانات محلياً</h2>
+    <p>يتم حفظ تفضيل اللغة والحكم التي اكتشفتها محلياً على جهازك فقط عبر التخزين المحلي للمتصفح (<code>localStorage</code>)، ولا يتم إرسالها إلى أي خوادم خارجية.</p>
+
+    <h2>العمل دون إنترنت</h2>
+    <p>قد يستخدم التطبيق ذاكرة التخزين المؤقت للمتصفح (Service Worker) لتسريع الفتح وتمكين عرض المحتوى دون اتصال بالإنترنت.</p>
+
+    <h2>التواصل</h2>
+    <p>إذا كان لديك أي استفسار حول سياسة الخصوصية، يمكنك التواصل عبر صفحة التطبيق على المتجر أو المستودع الخاص به.</p>
+
+    <a class="back" href="index.html">العودة إلى التطبيق</a>
+  </div>
+</main>
+</body>
+</html>
